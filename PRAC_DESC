@@ -1,0 +1,10 @@
+In this practical we will create a bot for telegram using botfather in telegram web/aap and telepot package in python.
+Steps:
+Step1: Go to botfather in telegram aap/web and create a new bot by choosing a name and username for your bot. Username of bot should end with the keyword 'bot'.
+Step2: Open cmd and go to the path where python is stored and write the line pip install telepot.
+Step3: Go to python and create a new file the write the code specifies in the file. The token used in the code is obtained from the telegram bot which is unique for each bot.
+Step3: Run the code and check for the output.
+Step4: Now go to the link https://api.telegram.org/bot1374228521:AAGOpuLK6gTUQhpv7qcBnqXYDDHlmPxyNgc/getUpdates and check whether it is connected. Again use the same token in the link as of the bot.
+Step5: Now go to telegram and open your created bot and start a conversation then go to url https://api.telegram.org/bot1374228521:AAGOpuLK6gTUQhpv7qcBnqXYDDHlmPxyNgc/sendMessage?chat_id=1089788663&text=WeLoveIoT
+Step6: The message specified in the code should be received in your bot. 
+Step7: Now from the bot type a message and send it and the bot will revert you as 'You said ...' specifying the message you typed.
